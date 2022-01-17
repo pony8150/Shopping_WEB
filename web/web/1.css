@@ -1,0 +1,36 @@
+body,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* 缩略图和原图宽高一样 */
+.thumbnail,
+.origin {
+    width: 400px;
+    height: 400px;
+    border: 1px solid chocolate;
+    position: absolute;
+}
+
+.origin {
+    left: 410px; /* 原图在缩略图的右边 */
+    top: 0;
+    overflow: hidden; /* 隐藏溢出内容 */
+    display: none;
+    z-index:999;
+}
+
+/* 放大镜框 */
+/* 这里按2.5倍放大，400px/160px=2.5 */
+.magnifier {
+    width: 160px;
+    height: 160px;
+    background: rgba(254, 238, 167, .4); /* 半透明效果 */
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}

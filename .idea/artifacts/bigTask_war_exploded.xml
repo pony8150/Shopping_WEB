@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bigTask:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/bigTask_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="bigTask/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bigTask" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.36" />
+          <element id="library" level="project" name="sqljdbc42" />
+          <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.6.2" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

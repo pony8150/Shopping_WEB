@@ -1,0 +1,43 @@
+{
+  "code": 0,
+  "msg": "读取成功",
+  "count": 1,
+  "data": [
+    {
+      "id": 1,
+      "username": "test1",
+      "sex": 50,
+      "city": 1.20,
+      "sign": "1.jpg",
+      "experience": "1111",
+      "score": 10000,
+      "Selled": 5000,
+      "classify": 5000,
+      "wealth": 5000
+    },
+    {
+      "id": 2,
+      "username": "test2",
+      "sex": 50,
+      "city": 1.20,
+      "sign": "1.jpg",
+      "experience": "1111",
+      "score": 10000,
+      "Selled": 5000,
+      "classify": 5000,
+      "wealth": 5000
+    },
+    {
+      "id": 3,
+      "username": "test3",
+      "sex": 50,
+      "city": 1.20,
+      "sign": "1.jpg",
+      "experience": "1111",
+      "score": 10000,
+      "Selled": 5000,
+      "classify": 5000,
+      "wealth": 5000
+    }
+  ]
+}
